@@ -4,11 +4,11 @@ public class Main {
         int count = 300;
         int refill = 2000;
         int sum = count + refill;
-        int a = sum/100 + sum;
+        int a = sum/100;
         if (sum > 1000) {
-            System.out.println(a);
+            System.out.println("Количество средств на счету (RUB) - " + sum + "; Сумма ваших бонусов(RUB) - " + a);
         } else {
-            System.out.println(sum);
+            System.out.println( "Количество средств на счету (RUB) - " + sum + "; В настоящий момент у вас нет бонусов :(");
     }
 }
 }
